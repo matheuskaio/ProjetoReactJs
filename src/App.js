@@ -1,7 +1,9 @@
 import React from "react";
+import "./App.css";
+import picapau from "./assets/picapau.jpeg";
 
 function App() {
-  return <h1>Hello</h1>;
+  return <img src={picapau} />;
 }
 
 export default App;
