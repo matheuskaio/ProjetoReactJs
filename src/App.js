@@ -1,9 +1,10 @@
 import React from "react";
 import "./App.css";
-import picapau from "./assets/picapau.jpeg";
+
+import TechList from "./components/TechList";
 
 function App() {
-  return <img src={picapau} />;
+  return <TechList />;
 }
 
 export default App;
